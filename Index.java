@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.*;
  
  
-public class Calc implements ActionListener
+public class Index implements ActionListener
 {
 	JFrame f;
 	JTextField t;
@@ -11,7 +11,7 @@ public class Calc implements ActionListener
 	static double a=0,b=0,result=0;
 	static int operator=0;
  
-	Calc()
+	Index()
 	{
 		JLabel l;
                 ImageIcon img = new ImageIcon("la.jpg");
@@ -152,6 +152,6 @@ public class Calc implements ActionListener
  
 	public static void main(String...s)
 	{
-		new Calc();
+		new Index();
 	}
 }
